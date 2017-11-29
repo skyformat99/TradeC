@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CQuote</class>
+ <widget class="QWidget" name="CQuote">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>209</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>267</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>--------------------------------</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>--------------------------------</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>--------------------------------</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLastPrice">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>30</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>13.457</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty2">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>128</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>222</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellPrice4">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>92</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8.44</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellPrice1">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>146</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8.41</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellPrice5">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>74</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8.45</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellName1">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>146</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖一</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty1">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>146</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>111</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellName4">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>92</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖四</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellPrice2">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>128</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8.42</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty4">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>92</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>444</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellName2">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>128</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖二</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellName5">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>74</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖五</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty5">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>74</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>555</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellName3">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>110</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖三</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty3">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>110</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>333</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellPrice3">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>110</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8.43</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZTName_2">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>299</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>可用金额</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZTPrice">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>15.32</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZTName_4">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>345</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>可卖数量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZTName">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>280</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>涨停</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDTPrice_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>347</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>1000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDTPrice_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>298</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>999999999</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelZTName_3">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>325</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前数量</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDTName">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>280</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>涨停</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDTPrice_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>322</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>5000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDTPrice">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>280</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>12.54</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyName4">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>230</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>买四</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyPrice4">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>230</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7.44</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyPrice2">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>194</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7.42</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyQty3">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>212</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>333</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyQty2">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>194</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>222</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyPrice5">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>248</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7.45</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyName1">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>176</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>买一</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyName2">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>194</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>买二</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyName3">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>212</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>买三</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyPrice1">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>176</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7.41</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyName5">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>248</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>买五</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyPrice3">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>212</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7.43</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyQty5">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>248</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>555</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyQty1">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>176</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>111</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBuyQty4">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>230</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>444</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelValue">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>28</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.14</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPercentage">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>47</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.65%</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelName">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>9</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>平安银行</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCode">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>000001</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

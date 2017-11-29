@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CNormalEntrust</class>
+ <widget class="QWidget" name="CNormalEntrust">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>445</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelProductNumber">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>10</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>产品编号:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboProductNumber">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>10</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CLabelClick" name="labelLockPN">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUnitNum">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>43</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>单元编号:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboUnitNum">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CLabelClick" name="labelLockUnitNum">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>40</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCode">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>70</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>证券代码:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditCode">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>70</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>000001</string>
+   </property>
+  </widget>
+  <widget class="CLabelClick" name="labelLockCode">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>70</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBS">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>100</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>委托方向:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboBS">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CLabelClick" name="labelLockBS">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>99</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboPriceType">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>126</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CLabelClick" name="labelLockPriceType">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>127</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPriceType">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>126</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>价格类型:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustPrice">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>160</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>委托价格:</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="dsbEntrustPrice">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>161</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPriceUnit">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>160</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustPrice_2">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>190</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>可卖数量:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditName">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>70</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>平安银行</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQty">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>193</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>12325</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSellQtyUnide">
+   <property name="geometry">
+    <rect>
+     <x>196</x>
+     <y>191</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>股</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSellQtyPercentage">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>188</y>
+     <width>40</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全部</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPriceUnit_2">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>222</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>股</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sbEntrustQty">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>221</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustAmountUnit">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>247</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>元</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustQty_2">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>247</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>委托金额:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustAmount">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>247</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>456879.25</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelOption">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>283</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选项</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEntrust">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>280</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下单</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboType">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>281</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>216</x>
+     <y>280</y>
+     <width>40</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEntrustQty">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>221</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>委托数量:</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CLabelClick</class>
+   <extends>QLabel</extends>
+   <header>clabelClick.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

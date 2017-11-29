@@ -1,0 +1,10 @@
+.svn/
+.vs/
+Debug/
+Release/
+temp/
+x64/
+*.VC.db
+*.opendb
+
+
